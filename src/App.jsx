@@ -2,6 +2,7 @@ import './App.css';
 import Greeting from "./Greeting.jsx";
 import UserCard from "./UserCard.jsx";
 import TaskList from "./TaskList.jsx";
+import Counter from "./Counter.jsx";
 
 function App() {
     return (
@@ -22,6 +23,8 @@ function App() {
                       isOnline={true}/>
 
             <TaskList />
+
+            <Counter />
         </div>
     );
 }
